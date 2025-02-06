@@ -1,11 +1,11 @@
 $(document).ready(function () {
     $('.footer-icons').mouseover(function () {
-            $(this).addClass('fa-flip');
+            $(this).addClass('fa-beat');
             
         }
     );
     $('.footer-icons').mouseout(function () { 
-        $(this).removeClass('fa-flip');
+        $(this).removeClass('fa-beat');
     });
 });
     
