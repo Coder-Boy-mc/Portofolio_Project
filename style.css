@@ -41,3 +41,9 @@ body {
 footer{
   background-color:rgb(186, 246, 241);
 }
+@keyframes anima {
+  10%{width:10rem}
+}
+.animation{
+  animation-name: anima;
+}
