@@ -9,10 +9,5 @@ $(document).ready(function () {
     });
 });
     
-$('.anima').mouseover(function (){
-    $(this).addClass('animation');
-});
-$('.anima').mouseout(function (){
-    $(this).removeClass('animation');
-});
+
     
