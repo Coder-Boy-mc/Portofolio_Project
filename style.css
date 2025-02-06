@@ -1,0 +1,43 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow: scroll;
+  margin: 0;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.ps {
+  padding-left: 4.5em;
+}
+.center {
+  text-align: center;
+  padding-bottom: 1em;
+}
+.apadd {
+  padding-top: 5em;
+}
+.mt-custom{
+  padding-top: 3rem;
+}
+.ms-custom{
+  margin-left: 100px;
+}
+
+.pt-custom{
+  padding-top:  4em;
+}
+.pt-custome{
+  padding-top:8em;
+}
+.about-card{
+  width: 19rem;
+}
+footer{
+  background-color:rgb(186, 246, 241);
+}
