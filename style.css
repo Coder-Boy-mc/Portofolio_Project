@@ -46,4 +46,5 @@ footer{
 }
 .animation{
   animation-name: anima;
+  animation-iteration-count: infinite;
 }
