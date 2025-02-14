@@ -1,214 +1,58 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">  
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-
-    <link rel="png" type="image/x-icon" href="image.png">    <title>Jhon Doe</title>
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: white;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding: 50px 0;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .hero h1 {
+            font-size: 3em;
+        }
+        .hero p {
+            font-size: 1.2em;
+            max-width: 600px;
+        }
+        .btn {
+            padding: 10px 20px;
+            border: 2px solid white;
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+            margin-top: 20px;
+            display: inline-block;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background-color: white;
+            color: #121212;
+        }
+    </style>
 </head>
-<body class="bg-info-subtle">
-    <div class="conteiner w-100 bg-info-subtle">
-     
-      <!--navbar section-->
-        <div class="navbar navbar-expand-lg shadow post bg-info"style="z-index: 1;position:fixed;width:100%;">
-          
-                <a href="/rabeehVk/" class="navbar-brand">Jhon Doe</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-   
-                  <div class="collapse navbar-collapse col-md-6 align-items-end"id="navbarSupportedContent">
-                    
-                      <ul class="navbar-nav me-0 text-black text-b shadow rounded-1 mb-2 mb-lg-0 bg-inf">
-                        <li class="nav-item shadow rounded-1 nav-block-width">
-                          <a href="#about" class="nav-link">About</a>
-                        </li>
-                          <li class="nav-item shadow rounded-1 nav-block-width">
-                            <a href="#Services" class="nav-link">Services</a>
-                          </li>
-                          <li class="nav-item shadow rounded-1 nav-block-width">
-                            <a href="#Experiances" class="nav-link">Experiances</a>
-                          </li>
-                          <li class="nav-item shadow rounded-1 nav-block-width">
-                            <a href="#contact" class="nav-link">Contact me</a>
-                          </li>
-                        </ul>
-                        
-                    </div>
-                 
-                  </div>
-    <!--image-->
-    <section id="about">
-     <div class="row">
-        <div class="col-md-6 pt-custom ps-5">
-            <img src="./rabeeh1.svg" class="img-thumbnail img-fluid rounded-circle m-5 border-5 w-50 h-75 shadow" alt="">
-        </div>
-        
-        <div class="col-md-6 pt-custome ps-5">
-          <h3>Jhon Doe</h3>
-          <p>hello world</p>
-            <!-- <div class="card border-success mb-3 w-75  h-75 about-">
-              <div class="card-header bg-transparent border-success">About</div>
-              <div class="card-body text-success">
-                <h5 class="card-title">Jhon Doe</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-              
-            </div> -->
-         
+<body>
+    <div class="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>I'm a passionate developer creating amazing web experiences. Explore my work and let's connect.</p>
+        <a href="Coder-Boy-mc/Portofolio_Project/portfolio.html" class="btn">View My Work</a>
     </div>
-
-    <!--Services-->
-    <div>
-    <section id="Services">
-    <!-- card section-->
-     <div class="d-flex align-items-center">
-      <h1 class="text-center">Services</h1>
-      <div class="flex-grow-1 border-bottom border-black border-3"></div>
-    </div>
-    <div class="row ps-4">
-      <!--the first card-->
-      <div class="row">
-        <div class="col-md-4 p-4">
-          <div class="card ">
-            <div class="card-body">
-              <h1><i class="bi bi-code-slash"></i></h1>
-              <h5 class="card-title">Web Designing</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consecteturur5eururturturturturt, adipisicing elit. Dolorem maiores qui cum, molestiae voluptates illo voluptate eveniet nulla ipsa eius molestias earum aliquid rem perspiciatis temporibus dignissimos labore placeat maxime..</p>
-            </div>
-          </div>
-        </div>
-
-        <!--the second card-->
-        <div class="col-md-4 p-4">
-          <div class="card  justify-content-center">
-            <div class="card-body">
-              <h1><i class="bi bi-transparency"></i></h1>
-              <h5 class="card-title">Photo Editing</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam recusandae illo nemo! Dignissimos voluptates molestiae, repellat possimus asperiores id harum ipsa dolorum totam cum ut distinctio numquam temporibus similique. Inventore!</p>
-              
-            </div>
-          </div>
-        </div>
-        <!--the third card-->
-        <!-- <div class="row"> -->
-          <div class="col-md-4 p-4">
-            <div class="card ">
-              <div class="card-body">
-                <h1><i class="bi bi-brush-fill"></i></h1>
-                <h5 class="card-title">Painting</h5>
-                <p class="card-text">ughksdhgloiusdhgsdhjksdhjkgvasdhLorem ipsum dolor sit amet consectetur adipisicing elit. Optio officia veritatis itaque quam quas animi provident dolorem, suscipit alias nam dolore. Ullam quos ratione hic voluptas facere inventore, quidem aperiam.</p>
-                
-              </div>
-            </div>
-          </div>
-        </div>
-      
-    </div>
-  </section>
-</div>
-  <!--Experiaces-->
-  <section id="Experiances">
-    <div class="d-flex align-items-center">
-    <h1 class="mb-0 me-3">Experiances</h1>
-    <div class="flex-grow-1 border-bottom border-3 border-black"></div>
-  </div>
-    <div class="row ps-4">
-      
-        <!--the first card-->
-      <div class="row">
-        <div class="col-md-4 p-4">
-          <div class="card ">
-            <div class="card-body">
-              <h1><i class="bi bi-book"></i></h1>
-              <h5 class="card-title">Teaching</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consecteturur5eururturturturturt, adipisicing elit. Dolorem maiores qui cum, molestiae voluptates illo voluptate eveniet nulla ipsa eius molestias earum aliquid rem perspiciatis temporibus dignissimos labore placeat maxime..</p>
-             
-            </div>
-          </div>
-        </div>
-
-        <!--the second card-->
-        <div class="col-md-4 p-4">
-          <div class="card  justify-content-center">
-            <div class="card-body">
-              <h1><i class="bi bi-pencil-square"></i></h1>
-              <h5 class="card-title">Writer</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam recusandae illo nemo! Dignissimos voluptates molestiae, repellat possimus asperiores id harum ipsa dolorum totam cum ut distinctio numquam temporibus similique. Inventore!</p>
-              
-            </div>
-          </div>
-        </div>
-        <!--the third card-->
-       
-          <div class="col-md-4 p-4">
-            <div class="card ">
-              <div class="card-body">
-                <h1><i class="bi bi-wrench"></i></h1>
-                <h5 class="card-title">Building Contractor</h5>
-                <p class="card-text">ughksdhgloiusdhgsdhjksdhjkgvasdhLorem ipsum dolor sit amet consectetur adipisicing elit. Optio officia veritatis itaque quam quas animi provident dolorem, suscipit alias nam dolore. Ullam quos ratione hic voluptas facere inventore, quidem aperiam.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      
-   
-    </div>
-  </section>
-  <section id="contact">
-    <div class="d-flex align-items-center">
-      <h1 class="text-center">Contact me</h1>
-      <div class="flex-grow-1 border-bottom border-black border-3"></div>
-    </div>
-  <div class="ps-4 p-4">
-  <form class="row g-3">
-    <div class="col-md-6">
-      <label for="inputEmail4" class="form-label">Email</label>
-      <input type="email" class="form-control" id="inputEmail4" name="email">
-    </div>
-    <div class="col-md-6">
-      <label for="typePhone" class="form-label">Mobil No:</label>
-      <input type="tel" class="form-control" id="typePhone" name="phone">
-    </div>
-    <div class="col-12">
-      <label for="inputAddress" class="form-label">Address</label>
-      <input type="text" class="form-control" id="inputAddress" placeholder="Address" name="address">
-    </div>
-    
-    <div class="form-group">
-      <label for="exampleFormControlTextarea1">Send your Message</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" name="message"></textarea>
-    </div>
-
-    <div class="col-12">
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </div>
-  </form>
-  </div>
-</section>
-<div class="p-4 pb-3">
-<footer class="text-center text-lg-start">
-  <!-- Copyright -->
-  <div class="p-4">
-    
-   <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook footer-icons" onclick="flip()" style="color: #088ff7;"></i></a>
- 
-   <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube footer-icons ps-3" style="color: #ff0000;"></i></a>
-
-   <a href="https://x.com/"><i class="fa-brands fa-square-x-twitter footer-icons ps-3"></i></a>
-
-   <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram footer-icons ps-3" style="color: #f006f4;"></i></a>
-  </div>
-  <!-- Copyright -->
-</footer>
-</div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-    <script src="scripts/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
